@@ -2,7 +2,13 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <!-- 즉시 리디렉션: 0초 뒤에 www 도메인으로 -->
+
+  <!-- JavaScript 우선 실행: 즉시 www로 리디렉션 -->
+  <script>
+    location.replace("https://www.kamsmusic.org/");
+  </script>
+
+  <!-- 예비 메타 리프레시: 0초 뒤 www로 이동 -->
   <meta http-equiv="refresh" content="0; url=https://www.kamsmusic.org/">
   <title>Redirecting…</title>
 </head>
